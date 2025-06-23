@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@tailwind utilities;
+
+/* Opcional, caso esteja usando o class-list.json do Flowbite React */
+@source "../.flowbite-react/class-list.json";
+
+/* Tema claro/escuro */
+html,
+body {
+  @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
+
+  :focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
