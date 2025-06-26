@@ -7,7 +7,6 @@ import { CadastroColetoresPage } from "./pages/Cadastros/Coletores";
 import { CadastroCidadesPage } from "./pages/Cadastros/Cidades";
 import { CadastroDistritoPage } from "./pages/Cadastros/Distrito";
 import { FooterComponent } from "./components/Footer/footer";
-import { ThemeToggle } from "./components/Theme/ThemeToggle";
 
 export default function Routers() {
   return (
@@ -62,8 +61,7 @@ function ProtectedPage({ element }: { element: JSX.Element }) {
 
       {/* main abaixo do header fixo */}
 
-      <main className="flex-grow bg-white pt-24 dark:bg-gray-900">
-        <ThemeToggle />
+      <main className="flex-grow bg-white pt-16 dark:bg-gray-900">
         {element}
       </main>
 
