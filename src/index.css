@@ -10,7 +10,7 @@
 /* Tema claro/escuro */
 html,
 body {
-  @apply bg-white text-gray-800 dark:bg-gray-800 dark:text-white;
+  @apply cursor-default bg-white text-gray-800 dark:bg-gray-800 dark:text-white;
 
   :focus {
     outline: none !important;
