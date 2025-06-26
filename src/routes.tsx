@@ -61,7 +61,7 @@ function ProtectedPage({ element }: { element: JSX.Element }) {
 
       {/* main abaixo do header fixo */}
 
-      <main className="flex-grow bg-white pt-16 dark:bg-gray-900">
+      <main className="flex-grow bg-white pt-24 dark:bg-gray-900">
         {element}
       </main>
 

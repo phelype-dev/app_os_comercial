@@ -108,7 +108,6 @@ export function FormCadColetores() {
           <TextInput
             id="serial"
             type="text"
-            maxLength={16}
             {...register("serial_coletor")}
           />
           {errors.serial_coletor && (

@@ -23,7 +23,7 @@ export function ThemeToggle() {
   return (
     <button
       onClick={() => setIsDark((prev) => !prev)}
-      className="rounded bg-gray-200 p-2 px-4 text-sm dark:bg-gray-700 dark:text-white"
+      className="rounded bg-gray-200 p-2 px-4 text-sm dark:bg-gray-800 dark:text-white"
     >
       {isDark ? "🌙 Modo Escuro" : "☀️ Modo Claro"}
     </button>
